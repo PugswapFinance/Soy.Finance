@@ -26,7 +26,7 @@ const TokenomicContent = () => {
             <TopDiv>
                 <SubTitle color={Theme.colors.bgscondary}>{t('Supply and Distribution')}</SubTitle>
                 <Spacer height="40px" />
-                <SubTitle color={Theme.colors.bgscondary}>{t('Max Supply:')}<Text2 color={Theme.colors.primary}><b>&nbsp;{t('100 000 000 $PUG.')}</b></Text2></SubTitle>
+                <SubTitle color={Theme.colors.bgscondary}>{t('Max Supply:')}<Text2 color={Theme.colors.primary}><b>&nbsp;{t('600 000 000 $PUG.')}</b></Text2></SubTitle>
                 <Spacer height="40px" />
                 <Text color='#767676'>{t('120 000 000 $SOY (20% of the max supply) will be created at the genesis and distributed as follows:')}</Text>
                 <Spacer height="20px" />
@@ -37,12 +37,12 @@ const TokenomicContent = () => {
                 <Spacer height="20px" />
                 <Row>
                     <Circle />
-                    <Text color='#767676'>{t('5% will be allocated to Callisto Enterprise.')}</Text>
+                    <Text color='#767676'>{t('')}</Text>
                 </Row>
                 <Spacer height="20px" />
                 <Row>
                     <Circle />
-                    <Text color='#767676'>{t('5% will be allocated to the Callisto team members via a dynamic motivation system for the team members to support the project development in the time.')}</Text>
+                    <Text color='#767676'>{t('5% will be allocated to the Pug Inu team members via a dynamic motivation system for the team members to support the project development in the time.')}</Text>
                 </Row>
                 <Spacer height="20px" />
                 <Row>
@@ -52,53 +52,33 @@ const TokenomicContent = () => {
                 <Spacer height="20px" />
                 <Row>
                     <Circle />
-                    <Text color='#767676'>{t('10% will be airdropped in 7 consecutive phases, the details of each phase being announced at the time of its launch.')}</Text>
+                    <Text color='#767676'>{t('10% will be airdropped in 2 consecutive phases, the details of each phase being announced at the time of its launch.')}</Text>
                 </Row>
                 <Spacer height="20px" />
                 <Row2>
-                    <Text color={Theme.colors.primary}><b>{t('Phase 1')}</b><Text2 color='#767676'>&nbsp;{t('- Sowing Soy - PancakeSwap Active Users Airdrop - 500 000 $SOY tokens - 15/10/21 to 30/10/21.')}</Text2></Text>
+                    <Text color={Theme.colors.primary}><b>{t('Phase 1')}</b><Text2 color='#767676'>&nbsp;{t('Community participation in Pug Inu Social -1 500 000 $PUG tokens')}</Text2></Text>
                 </Row2>
                 <Spacer height="10px" />
                 <Row2>
-                    <Text color={Theme.colors.primary}><b>{t('Phase 2')}</b><Text2 color='#767676'>&nbsp;{t('- Sowing Soy (2) - Details to be published on 25/10/21.')}</Text2></Text>
-                </Row2>
-                <Spacer height="10px" />
-                <Row2>
-                    <Text color={Theme.colors.primary}><b>{t('Phase 3')}</b><Text2 color='#767676'>&nbsp;{t('- Sowing Soy (3) - Details to be published on 10/11/21.')}</Text2></Text>
-                </Row2>
-                <Spacer height="10px" />
-                <Row2>
-                    <Text color={Theme.colors.primary}><b>{t('Phase 4')}</b><Text2 color='#767676'>&nbsp;{t('- Sowing Soy (4) - Details to be published on 25/11/21.')}</Text2></Text>
-                </Row2>
-                <Spacer height="10px" />
-                <Row2>
-                    <Text color={Theme.colors.primary}><b>{t('Phase 5')}</b><Text2 color='#767676'>&nbsp;{t('- Storing Soy - Details to be published on 10/12/21.')}</Text2></Text>
-                </Row2>
-                <Spacer height="10px" />
-                <Row2>
-                    <Text color={Theme.colors.primary}><b>{t('Phase 6')}</b><Text2 color='#767676'>&nbsp;{t('- Deep Freezing SOY - Details to be published on 25/12/21.')}</Text2></Text>
-                </Row2>
-                <Spacer height="10px" />
-                <Row2>
-                    <Text color={Theme.colors.primary}><b>{t('Phase 7')}</b><Text2 color='#767676'>&nbsp;{t('- Harvesting Soy - Details to be published on 10/01/22.')}</Text2></Text>
+                    <Text color={Theme.colors.primary}><b>{t('Phase 2')}</b><Text2 color='#767676'>&nbsp;{t('PancakeSwap Active Users Airdrop -1 500 000 $PUG tokens')}</Text2></Text>
                 </Row2>
                 <Spacer height="40px" />
                 <SubTitle color={Theme.colors.bgscondary}>{t('Transaction Fees Distribution')}</SubTitle>
                 <Spacer height="40px" />
-                <Text color='#767676'>{t('For each trade/swap performed in the SOY Finance platform, a commission fee is applied. Initially, 100% of the collected fee will be split among the liquidity providers. Over time, it will decrease to 55% by year 5 (phase 2).')}</Text>
+                <Text color='#767676'>{t('For each trade/swap performed in the Pug Inu Finance platform, a commission fee is applied. Initially, 100% of the collected fee will be split among the liquidity providers. Over time, it will decrease to 55% by year 5 (phase 2).')}</Text>
                 <Spacer height="20px" />
-                <Text color='#767676'>{t('Thus, up to 20% of the trading fee will be shared among SOY token holders, 5% will be allocated to the insurance fund for its operation, and finally, 20% will be used to buy back SOY tokens and burn them.')}</Text>
+                <Text color='#767676'>{t('Thus, up to 20% of the trading fee will be shared among SOY token holders, 5% will be allocated to the insurance fund for its operation, and finally, 20% will be used to buy back Pug tokens and burn them.')}</Text>
                 <Spacer height="40px" />
                 <SubTitle color={Theme.colors.bgscondary}>{t('Fees Distribution Phases Details')}</SubTitle>
                 <Spacer height="40px" />
                 <Row3>
                     <Text3 color={Theme.colors.primary}><b>{t('Phase 0')}</b>&nbsp;&nbsp;&nbsp;</Text3>
-                    <Text color='#767676'>&nbsp;{t('(Until 15/10/21) — The trading fee is set to 0.2% of the volume of each transaction.')}</Text>
+                    <Text color='#767676'>&nbsp;{t('The trading fee is set to 0.2% of the volume of each transaction.')}</Text>
                 </Row3>
                 <Spacer height="20px" />
                 <Row3>
                     <Text3 color={Theme.colors.primary}><b>{t('Phase 1')}</b>&nbsp;&nbsp;&nbsp;</Text3>
-                    <Text color='#767676'>&nbsp;{t('SOY Finance will use variable fees from 0.3% to 0.5% to audit the newly listed tokens and increase the platform’s liquidity (lower fee will be applied to larger trades).')}</Text>
+                    <Text color='#767676'>&nbsp;{t('Pug Inu Finance will use variable fees from 0.3% to 0.5% to audit the newly listed tokens and increase the platform’s liquidity (lower fee will be applied to larger trades).')}</Text>
                 </Row3>
                 <Spacer height="20px" />
                 <Row3>
@@ -108,15 +88,15 @@ const TokenomicContent = () => {
                 <Spacer height="40px" />
                 <SubTitle color={Theme.colors.bgscondary}>{t('Burning Mechanisms - “Buyback & Burn”')}</SubTitle>
                 <Spacer height="40px" />
-                <Text color='#767676'>{t('A set of burning mechanisms will be introduced to reward the SOY token holders and liquidity providers by decreasing inflation or lead to deflation depending on the system’s utilization, trading volume, and token price.')}</Text>
+                <Text color='#767676'>{t('A set of burning mechanisms will be introduced to reward the PUG token holders and liquidity providers by decreasing inflation or lead to deflation depending on the system’s utilization, trading volume, and token price.')}</Text>
                 <Spacer height="20px" />
-                <Text color='#767676'>{t('The burning mechanism will receive a percentage ranging from 15% to 30% of the total trading fee.')}<Text color={Theme.colors.primary}>&nbsp;{t('Weekly, SOY tokens will be rebought and burned.')}</Text></Text>
+                <Text color='#767676'>{t('The burning mechanism will receive a percentage ranging from 15% to 30% of the total trading fee.')}<Text color={Theme.colors.primary}>&nbsp;{t('Weekly, PUG tokens will be rebought and burned.')}</Text></Text>
                 <Spacer height="20px" />
                 <Text color='#767676'>{t('The system’s adoption and utilization through transaction volume define the size of the commission fees that will be distributed both to liquidity providers and burned.')}</Text>
                 <Spacer height="40px" />
-                <SubTitle color={Theme.colors.bgscondary}>{t('Addition Information')}</SubTitle>
+                <SubTitle color={Theme.colors.bgscondary}>{t('')}</SubTitle>
                 <Spacer height="40px" />
-                <Text color='#767676'>{t('A full description of Soy Tokenomic can be found in the')}<StyledLi href="https://soy-finance.medium.com/soy-finance-monetary-policy-vision-4f07a1b48372" target="_blank" color='#615EFF'>&nbsp;{t('SOY Monetary Policy.')}</StyledLi></Text>
+                <Text color='#767676'>{t('')}<StyledLi href="" target="_blank" color='#615EFF'>&nbsp;{t('')}</StyledLi></Text>
                 <Spacer height="20px" />
             </TopDiv>
             <Spacer height="100px" />
