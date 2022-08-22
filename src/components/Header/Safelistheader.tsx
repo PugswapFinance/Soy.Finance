@@ -50,8 +50,8 @@ const Safelistheader: React.FC = () => {
                     <Li>
                         <NavDropdown title={langTitle[`${currentLanguage.locale}`]} id="collasible-nav-dropdown">
                             <NavDropdown.Item onClick={()=>handleChangeLang('en-US')}>EN</NavDropdown.Item>
-                            <NavDropdown.Item onClick={()=>handleChangeLang('zh-CN')}></NavDropdown.Item>
-                            <NavDropdown.Item onClick={()=>handleChangeLang('zh-TW')}></NavDropdown.Item>
+                            <NavDropdown.Item onClick={()=>handleChangeLang('zh-CN')}>CH</NavDropdown.Item>
+                            <NavDropdown.Item onClick={()=>handleChangeLang('zh-TW')}>TW</NavDropdown.Item>
                         </NavDropdown>
                     </Li>
                 </Nav>
