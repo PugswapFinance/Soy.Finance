@@ -6,8 +6,8 @@ export const ZHTW: Language = { locale: 'zh-TW', language: '简体中文', code:
 
 export const languages = {
   'en-US': EN,
-  'zh-CN': ZHCN,
-  'zh-TW': ZHTW,
+ // 'zh-CN': ZHCN,
+ // 'zh-TW': ZHTW,
 }
 
 export const languageList = Object.values(languages)
