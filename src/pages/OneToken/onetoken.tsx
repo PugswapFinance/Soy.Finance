@@ -5,7 +5,7 @@ import { Theme } from 'constants/theme';
 import { Assets } from 'constants/images';
 import { useTranslation } from 'contexts/Localization';
 
-const desc = `Using the industry's most advanced token technology,\nSoy Finance introduces the "1-Click Swap" feature for the very first time,\nproviding users with an entirely new experience at 99% less cost than the leading competitors.`
+const desc = `Using the industry's most advanced token technology,\nPug Inu Finance introduces the "1-Click Swap" feature for the very first time,\nproviding users with an entirely new experience at 99% less cost than the leading competitors.`
 
 const OneToken = () => {
     const { t } = useTranslation()
@@ -14,7 +14,7 @@ const OneToken = () => {
             <Wrapper >
                 <SpaceRow>
                     <Title color={Theme.colors.primary}>
-                        <Title color="#AEDD00">{t('SOY')}&nbsp;</Title>{t('Finance')}
+                        <Title color="#AEDD00">{t('Pug Inu')}&nbsp;</Title>{t('Finance')}
                     </Title>
                 </SpaceRow>
                 <Spacer height="50px" />
@@ -26,7 +26,7 @@ const OneToken = () => {
                     href="https://app.soy.finance/"
                     target="_blank"
                 >
-                    {t('Launch SOY Finance')}
+                    {t('Launch Pug Inu Finance')}
                 </LiButton>
             </Wrapper>
             
