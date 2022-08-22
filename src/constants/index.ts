@@ -1,6 +1,6 @@
 import { InjectedConnector } from '@web3-react/injected-connector'
 
-const injected = new InjectedConnector({ supportedChainIds: [820, 20729] })
+const injected = new InjectedConnector({ supportedChainIds: [56] })
 
 export const API_BASE_URL = 'https://cryptobot.name:8081/'
 
