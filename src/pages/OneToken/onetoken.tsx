@@ -23,10 +23,10 @@ const OneToken = () => {
                 </Text>
                 <Spacer height="50px" />
                 <LiButton
-                    href="https://app.soy.finance/"
+                    href="https://www.pinksale.finance/launchpads?chain=BSC"
                     target="_blank"
                 >
-                    {t('Launch Pug Inu Finance')}
+                    {t('Join Fair Launch')}
                 </LiButton>
             </Wrapper>
             
