@@ -36,13 +36,13 @@ const Header: React.FC = () => {
                         <NavDropdown title={t('Soy Finance')} id="collasible-nav-dropdown">
                             <NavDropdown.Item href="" target="_blank">{t('')}</NavDropdown.Item>
                             <NavDropdown.Item href="/roadmap">{t('Roadmap')}</NavDropdown.Item>
-                            <NavDropdown.Item href="/tokenomic">{t('Pug Inu Tokenomics')}</NavDropdown.Item>
+                            <NavDropdown.Item href="/tokenomic">{t('Tokenomics')}</NavDropdown.Item>
                             <NavDropdown.Item href="/safelist">{t('Safelisting')}</NavDropdown.Item>
                             <NavDropdown.Item href="" target="_blank">{t('')}</NavDropdown.Item>
                         </NavDropdown>
                     </Li>
                     <Li>
-                        <Nav.Link href="https://www.bnbchain.org/en/bridge" target="_blank">{t('Callisto Bridge')}</Nav.Link>
+                        <Nav.Link href="https://www.bnbchain.org/en/bridge" target="_blank">{t('Binance Bridge')}</Nav.Link>
                     </Li>
                     <LiButton href="https://app.puginu.finance/#/swap" target="_blank">
                         {t('Launch Pug Inu Finance')}
