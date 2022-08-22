@@ -33,7 +33,7 @@ const Safelistheader: React.FC = () => {
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="ml-auto">
                     <Li> 
-                        <NavDropdown title={t('Soy Finance')} id="collasible-nav-dropdown">
+                        <NavDropdown title={t('Pug Inu Finance')} id="collasible-nav-dropdown">
                             <NavDropdown.Item href="" target="_blank">{t('')}</NavDropdown.Item>
                             <NavDropdown.Item href="/roadmap">{t('Roadmap')}</NavDropdown.Item>
                             <NavDropdown.Item href="/tokenomic">{t('Tokenomics')}</NavDropdown.Item>
@@ -45,7 +45,7 @@ const Safelistheader: React.FC = () => {
                         <Nav.Link href="https://www.bnbchain.org/en/bridge" target="_blank">{t('Binance Bridge')}</Nav.Link>
                     </Li>
                     <LiButton href="https://app.puginu.finance/#/swap" target="_blank">
-                        {t('Launch Soy Finance')}
+                        {t('Launch Pug Inu Finance')}
                     </LiButton>
                     <Li>
                         <NavDropdown title={langTitle[`${currentLanguage.locale}`]} id="collasible-nav-dropdown">
