@@ -28,7 +28,7 @@ const TokenomicContent = () => {
                 <Spacer height="40px" />
                 <SubTitle color={Theme.colors.bgscondary}>{t('Max Supply:')}<Text2 color={Theme.colors.primary}><b>&nbsp;{t('600 000 000 $PUG.')}</b></Text2></SubTitle>
                 <Spacer height="40px" />
-                <Text color='#767676'>{t('120 000 000 $SOY (20% of the max supply) will be created at the genesis and distributed as follows:')}</Text>
+                <Text color='#767676'>{t('120 000 000 $PUG (20% of the max supply) will be created at the genesis and distributed as follows:')}</Text>
                 <Spacer height="20px" />
                 <Row>
                     <Circle />
@@ -67,7 +67,7 @@ const TokenomicContent = () => {
                 <Spacer height="40px" />
                 <Text color='#767676'>{t('For each trade/swap performed in the Pug Inu Finance platform, a commission fee is applied. Initially, 100% of the collected fee will be split among the liquidity providers. Over time, it will decrease to 55% by year 5 (phase 2).')}</Text>
                 <Spacer height="20px" />
-                <Text color='#767676'>{t('Thus, up to 20% of the trading fee will be shared among SOY token holders, 5% will be allocated to the insurance fund for its operation, and finally, 20% will be used to buy back Pug tokens and burn them.')}</Text>
+                <Text color='#767676'>{t('Thus, up to 20% of the trading fee will be shared among PUG token holders, 5% will be allocated to the insurance fund for its operation, and finally, 20% will be used to buy back Pug tokens and burn them.')}</Text>
                 <Spacer height="40px" />
                 <SubTitle color={Theme.colors.bgscondary}>{t('Fees Distribution Phases Details')}</SubTitle>
                 <Spacer height="40px" />
