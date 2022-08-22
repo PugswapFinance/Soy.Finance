@@ -21,12 +21,12 @@ const TokenomicContent = () => {
 
     return (
         <Container>
-            <Title color={Theme.colors.primary}>{t('SOY Tokenomics')}</Title>
+            <Title color={Theme.colors.primary}>{t('Pug Inu Tokenomics')}</Title>
             <Spacer height="80px" />
             <TopDiv>
                 <SubTitle color={Theme.colors.bgscondary}>{t('Supply and Distribution')}</SubTitle>
                 <Spacer height="40px" />
-                <SubTitle color={Theme.colors.bgscondary}>{t('Max Supply:')}<Text2 color={Theme.colors.primary}><b>&nbsp;{t('600 000 000 $SOY.')}</b></Text2></SubTitle>
+                <SubTitle color={Theme.colors.bgscondary}>{t('Max Supply:')}<Text2 color={Theme.colors.primary}><b>&nbsp;{t('100 000 000 $PUG.')}</b></Text2></SubTitle>
                 <Spacer height="40px" />
                 <Text color='#767676'>{t('120 000 000 $SOY (20% of the max supply) will be created at the genesis and distributed as follows:')}</Text>
                 <Spacer height="20px" />
