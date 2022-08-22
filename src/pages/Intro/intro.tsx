@@ -29,12 +29,12 @@ const Intro = () => {
             </Row>
             <Spacer height="50px" />
             
-            <LiButton href="https://app.soy.finance/#/swap" target="_blank">
-                {t('Launch Soy Finance')}
+            <LiButton href="https://app.puginu.finance/#/swap" target="_blank">
+                {t('Launch Pug Inu Finance')}
             </LiButton>
             <Spacer height="20px" />
             <LiButton2 href="/airdrop">
-                {t('SOY Airdrop')}
+                {t('PUG Airdrop')}
             </LiButton2>
             <StyledVideo autoPlay muted loop id="main">
                 <source src="Main.mp4" type="video/mp4"/>
