@@ -39,30 +39,30 @@ const PageFooter = () => {
                             <RightsdivWeb>
                                 <Text>{t('All rights reserved by')}</Text>
                                 <Spacer height="5px" />
-                                <Text><b>{t('Callisto Enterprise')}</b></Text>
+                                <Text><b>{t('Pug Inu Finance')}</b></Text>
                             </RightsdivWeb>
                         </Itemdiv>
                         <Itemdiv>                            
                             <Text><b>{t('Soy Finance')}</b></Text>
                             <Spacer height="10px" />
-                            <StyledLi href="https://clo.click/how_to" target="_blank">{t('Tutorials')}</StyledLi>
+                            <StyledLi href="" target="_blank">{t('')}</StyledLi>
                             <Spacer height="10px" />
                             <StyledLi href="/roadmap">{t('Roadmap')}</StyledLi>
                             <Spacer height="10px" />
                             <StyledLi href="/safelist">{t('Safelisting')}</StyledLi>
                             <Spacer height="10px" />
-                            <StyledLi href="https://bullsinvesting.club/" target="_blank">{t('BUSDT Stablecoin')}</StyledLi>
+                            <StyledLi href="" target="_blank">{t('')}</StyledLi>
                         </Itemdiv>
                         <Itemdiv>                            
                             <Text><b>{t('Resources')}</b></Text>
                             <Spacer height="10px" />
-                            <StyledLi href="https://callistoenterprise.com/team" target="_blank">{t('Team')}</StyledLi>
+                            <StyledLi href="" target="_blank">{t('')}</StyledLi>
                             <Spacer height="10px" />
-                            <StyledLi href="https://github.com/SoyFinance/" target="_blank">{t('Github')}</StyledLi>
+                            <StyledLi href="https://github.com/PugInuFinance/" target="_blank">{t('Github')}</StyledLi>
                             <Spacer height="10px" />
-                            <StyledLi href="https://callisto.network/" target="_blank">{t('Callisto Network')}</StyledLi>
+                            <StyledLi href="https://bscscan.com/" target="_blank">{t('Contract')}</StyledLi>
                             <Spacer height="10px" />
-                            <StyledLi href="https://callistoenterprise.com/" target="_blank">{t('Callisto Enterprise')}</StyledLi>
+                            <StyledLi href="" target="_blank">{t('')}</StyledLi>
                         </Itemdiv>
                         
                     </Row2>
@@ -71,29 +71,29 @@ const PageFooter = () => {
                         <Itemdiv2>
                             <Text><b>{t('Documentation')}</b></Text>
                             <Spacer height="10px" />
-                            <StyledLi href="https://callisto.network/soy-finance-soy-security-audit/" target="_blank">{t('Platform Audit Report')}</StyledLi>
+                            <StyledLi href="https://github.com/ContractChecker/" target="_blank">{t('Platform Audit Report')}</StyledLi>
                             <Spacer height="10px" />
                             <StyledLi href="https://" target="_blank">{t('Bug Bounty Report (To come)')}</StyledLi>
                             <Spacer height="10px" />
-                            <StyledLi href="https://soy-finance.medium.com/soy-finance-monetary-policy-vision-4f07a1b48372" target="_blank">{t('Monetary Policy')}</StyledLi>
+                            <StyledLi href="" target="_blank">{t('')}</StyledLi>
                             <Spacer height="10px" />
-                            <StyledLi href="https://callisto.network/erc223-token-standard/" target="_blank">{t('ERC 223 Token Standard')}</StyledLi>
+                            <StyledLi href="" target="_blank">{t('')}</StyledLi>
                         </Itemdiv2>
                         <Itemdiv>
                             <Text align="center"><b>{t('Social Media')}</b></Text>
                             <Spacer height="10px" />
                             <Row>
-                                <StyledLi2 href="https://t.me/Soy_Finance" target="_blank"><Telegram /></StyledLi2>
-                                <StyledLi2 href="https://twitter.com/Soy_Finance" target="_blank"><Twitter /></StyledLi2>
-                                <StyledLi2 href="https://www.reddit.com/r/Soy_Finance/" target="_blank"><Redit /></StyledLi2>
-                                <StyledLi2 href="https://www.facebook.com/Soy.Finance" target="_blank"><Facebook /></StyledLi2>
-                                <StyledLi2 href="https://soy-finance.medium.com/" target="_blank"><Medium/></StyledLi2>
+                                <StyledLi2 href="https://t.me/PugInuFinance" target="_blank"><Telegram /></StyledLi2>
+                                <StyledLi2 href="https://twitter.com/PugInu_Finance" target="_blank"><Twitter /></StyledLi2>
+                                <StyledLi2 href="https://www.reddit.com/r/Puginu_Finance/" target="_blank"><Redit /></StyledLi2>
+                                <StyledLi2 href="https://www.facebook.com/Puginu.Finance" target="_blank"><Facebook /></StyledLi2>
+                                <StyledLi2 href="https://puginu-finance.medium.com/" target="_blank"><Medium/></StyledLi2>
                             </Row>                    
                         </Itemdiv>
                     </Row2>
                     <RightsdivMob>
                         <Spacer height="30px" />
-                        <Text>{t('All rights reserved by')} <b>{t('Callisto Enterprise')}</b></Text>
+                        <Text>{t('All rights reserved by')} <b>{t('Pug Inu Finance')}</b></Text>
                     </RightsdivMob>
                 </Flex>
             </BkImage>
@@ -104,50 +104,50 @@ const PageFooter = () => {
                         <Spacer height="10px" />
                         <Text>{t('All rights reserved by')}</Text>
                         <Spacer height="5px" />
-                        <Text><b>{t('Callisto Enterprise')}</b></Text>
+                        <Text><b>{t('Pug Inu Finance')}</b></Text>
                     </div>
                     <div>
-                        <Text><b>{t('Soy Finance')}</b></Text>
+                        <Text><b>{t('Pug Inu Finance')}</b></Text>
                         <Spacer height="10px" />
-                        <StyledLi href="https://clo.click/how_to" target="_blank">{t('Tutorials')}</StyledLi>
+                        <StyledLi href="" target="_blank">{t('')}</StyledLi>
                         <Spacer height="10px" />
                         <StyledLi href="/roadmap">{t('Roadmap')}</StyledLi>
                         <Spacer height="10px" />
                         <StyledLi href="/safelist">{t('Safelisting')}</StyledLi>
                         <Spacer height="10px" />
-                        <StyledLi href="https://bullsinvesting.club/" target="_blank">{t('BUSDT Stablecoin')}</StyledLi>
+                        <StyledLi href="" target="_blank">{t('')}</StyledLi>
                     </div>
                     <div>
                         <Text><b>{t('Resources')}</b></Text>
                         <Spacer height="10px" />
-                        <StyledLi href="https://callistoenterprise.com/team" target="_blank">{t('Team')}</StyledLi>
+                        <StyledLi href="" target="_blank">{t('')}</StyledLi>
                         <Spacer height="10px" />
-                        <StyledLi href="https://github.com/SoyFinance/" target="_blank">{t('Github')}</StyledLi>
+                        <StyledLi href="https://github.com/puginufinance/" target="_blank">{t('Github')}</StyledLi>
                         <Spacer height="10px" />
-                        <StyledLi href="https://callisto.network/" target="_blank">{t('Callisto Network')}</StyledLi>
+                        <StyledLi href="https://bscscan.com/" target="_blank">{t('Contract')}</StyledLi>
                         <Spacer height="10px" />
-                        <StyledLi href="https://callistoenterprise.com/" target="_blank">{t('Callisto Enterprise')}</StyledLi>
+                        <StyledLi href="" target="_blank">{t('')}</StyledLi>
                     </div>
                     <div>
                         <Text><b>{t('Documentation')}</b></Text>
                         <Spacer height="10px" />
-                        <StyledLi href="https://callisto.network/soy-finance-soy-security-audit/" target="_blank">{t('Platform Audit Report')}</StyledLi>
+                        <StyledLi href="https://github.com/ContractChecker/" target="_blank">{t('Platform Audit Report')}</StyledLi>
                         <Spacer height="10px" />
                         <StyledLi href="https://" target="_blank">{t('Bug Bounty Report (To come)')}</StyledLi>
                         <Spacer height="10px" />
-                        <StyledLi href="https://soy-finance.medium.com/soy-finance-monetary-policy-vision-4f07a1b48372" target="_blank">{t('Monetary Policy')}</StyledLi>
+                        <StyledLi href="" target="_blank">{t('')}</StyledLi>
                         <Spacer height="10px" />
-                        <StyledLi href="https://callisto.network/erc223-token-standard/" target="_blank">{t('ERC 223 Token Standard')}</StyledLi>
+                        <StyledLi href="">{t('')}</StyledLi>
                     </div>
                     <div>
                         <Text align="center"><b>{t('Social Media')}</b></Text>
                         <Spacer height="10px" />
                         <Row>
-                            <StyledLi2 href="https://t.me/Soy_Finance" target="_blank"><Telegram /></StyledLi2>
-                            <StyledLi2 href="https://twitter.com/Soy_Finance" target="_blank"><Twitter /></StyledLi2>
-                            <StyledLi2 href="https://www.reddit.com/r/Soy_Finance/" target="_blank"><Redit /></StyledLi2>
-                            <StyledLi2 href="https://www.facebook.com/Soy.Finance" target="_blank"><Facebook /></StyledLi2>
-                            <StyledLi2 href="https://soy-finance.medium.com/" target="_blank"><Medium/></StyledLi2>
+                                <StyledLi2 href="https://t.me/PugInuFinance" target="_blank"><Telegram /></StyledLi2>
+                                <StyledLi2 href="https://twitter.com/PugInu_Finance" target="_blank"><Twitter /></StyledLi2>
+                                <StyledLi2 href="https://www.reddit.com/r/Puginu_Finance/" target="_blank"><Redit /></StyledLi2>
+                                <StyledLi2 href="https://www.facebook.com/Puginu.Finance" target="_blank"><Facebook /></StyledLi2>
+                                <StyledLi2 href="https://puginu-finance.medium.com/" target="_blank"><Medium/></StyledLi2>
                         </Row>                    
                     </div>
                 </Flex>
