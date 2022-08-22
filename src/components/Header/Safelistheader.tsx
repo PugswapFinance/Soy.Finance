@@ -34,24 +34,24 @@ const Safelistheader: React.FC = () => {
                 <Nav className="ml-auto">
                     <Li> 
                         <NavDropdown title={t('Soy Finance')} id="collasible-nav-dropdown">
-                            <NavDropdown.Item href="https://clo.click/how_to" target="_blank">{t('Tutorials')}</NavDropdown.Item>
+                            <NavDropdown.Item href="" target="_blank">{t('')}</NavDropdown.Item>
                             <NavDropdown.Item href="/roadmap">{t('Roadmap')}</NavDropdown.Item>
-                            <NavDropdown.Item href="/tokenomic">{t('SOY Tokenomics')}</NavDropdown.Item>
+                            <NavDropdown.Item href="/tokenomic">{t('Tokenomics')}</NavDropdown.Item>
                             <NavDropdown.Item href="/safelist">{t('Safelisting')}</NavDropdown.Item>
-                            <NavDropdown.Item href="https://bullsinvesting.club/" target="_blank">{t('BUSDT Stable Coin')}</NavDropdown.Item>
+                            <NavDropdown.Item href="" target="_blank">{t('')}</NavDropdown.Item>
                         </NavDropdown>
                     </Li>
                     <Li>
-                        <Nav.Link href="https://callistobridge.netlify.app/" target="_blank">{t('Callisto Bridge')}</Nav.Link>
+                        <Nav.Link href="https://www.bnbchain.org/en/bridge" target="_blank">{t('Binance Bridge')}</Nav.Link>
                     </Li>
-                    <LiButton href="https://app.soy.finance/#/swap" target="_blank">
+                    <LiButton href="https://app.puginu.finance/#/swap" target="_blank">
                         {t('Launch Soy Finance')}
                     </LiButton>
                     <Li>
                         <NavDropdown title={langTitle[`${currentLanguage.locale}`]} id="collasible-nav-dropdown">
                             <NavDropdown.Item onClick={()=>handleChangeLang('en-US')}>EN</NavDropdown.Item>
-                            <NavDropdown.Item onClick={()=>handleChangeLang('zh-CN')}>CH</NavDropdown.Item>
-                            <NavDropdown.Item onClick={()=>handleChangeLang('zh-TW')}>TW</NavDropdown.Item>
+                            <NavDropdown.Item onClick={()=>handleChangeLang('zh-CN')}></NavDropdown.Item>
+                            <NavDropdown.Item onClick={()=>handleChangeLang('zh-TW')}></NavDropdown.Item>
                         </NavDropdown>
                     </Li>
                 </Nav>
