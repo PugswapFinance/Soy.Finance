@@ -29,8 +29,8 @@ const Intro = () => {
             </Row>
             <Spacer height="50px" />
             
-            <LiButton href="https://app.puginu.finance/#/swap" target="_blank">
-                {t('Launch Pug Inu Finance')}
+            <LiButton href="https://www.pinksale.finance/launchpads?chain=BSC" target="_blank">
+                {t('Pug Inu Presales')}
             </LiButton>
             <Spacer height="20px" />
             <LiButton2 href="/airdrop">
