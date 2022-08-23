@@ -85,9 +85,9 @@ const PageFooter = () => {
                             <Row>
                                 <StyledLi2 href="https://t.me/PugInuFinance" target="_blank"><Telegram /></StyledLi2>
                                 <StyledLi2 href="https://twitter.com/PugInu_Finance" target="_blank"><Twitter /></StyledLi2>
-                                <StyledLi2 href="https://www.reddit.com/r/Puginu_Finance/" target="_blank"><Redit /></StyledLi2>
+                                <StyledLi2 href="https://www.reddit.com/user/Puginu_Finance/" target="_blank"><Redit /></StyledLi2>
                                 <StyledLi2 href="https://www.facebook.com/Puginu.Finance" target="_blank"><Facebook /></StyledLi2>
-                                <StyledLi2 href="https://puginu-finance.medium.com/" target="_blank"><Medium/></StyledLi2>
+                                <StyledLi2 href="https://medium.com/@puginu-finance" target="_blank"><Medium/></StyledLi2>
                             </Row>                    
                         </Itemdiv>
                     </Row2>
