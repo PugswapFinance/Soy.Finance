@@ -38,7 +38,7 @@ const Header: React.FC = () => {
                             <NavDropdown.Item href="/roadmap">{t('Roadmap')}</NavDropdown.Item>
                             <NavDropdown.Item href="/tokenomic">{t('Tokenomics')}</NavDropdown.Item>
                             <NavDropdown.Item href="/safelist">{t('Safelisting')}</NavDropdown.Item>
-                            <NavDropdown.Item href="Swap" target="_blank">{t('https://puginu.finance/#/swap')}</NavDropdown.Item>
+                            <NavDropdown.Item href="https://puginu.finance/#/swap" target="_blank">{t('Swap')}</NavDropdown.Item>
                         </NavDropdown>
                     </Li>
                     <Li>
