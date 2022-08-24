@@ -49,7 +49,7 @@ const Metrics = () => {
                         <StyledText>${shortenNumber(metricsData.result.Volume)}</StyledText>
                     </Div>
                     <Div>
-                        <StyledText2>{t('Total Users')}</StyledText2>
+                        <StyledText2>{t('')}</StyledText2>
                         <Spacer height="20px" />
                         <StyledText>{shortenNumber(metricsData.result.Users)}+</StyledText>
                     </Div>
@@ -58,18 +58,18 @@ const Metrics = () => {
                     <Div className="margin">
                         {
                             isEn ?
-                            <StyledText2>{t('Supported Networks*')}</StyledText2>:
-                            <StyledText3>{t('Supported Networks*')}</StyledText3>
+                            <StyledText2>{t('')}</StyledText2>:
+                            <StyledText3>{t('')}</StyledText3>
                         }
                         {
                             isEn ?
-                            <StyledText3>{t('*Via Callisto Bridge')}</StyledText3>:
-                            <StyledText2>{t('*Via Callisto Bridge')}</StyledText2>
+                            <StyledText3>{t('')}</StyledText3>:
+                            <StyledText2>{t('')}</StyledText2>
                         }
                         <StyledText>3</StyledText>
                     </Div>
                     <Div>
-                        <StyledText2>{t('Total Trades')}</StyledText2>
+                        <StyledText2>{t('')}</StyledText2>
                         <Spacer height="20px" />
                         <StyledText>{shortenNumber(metricsData.result.Trades)}+</StyledText>
                     </Div>
