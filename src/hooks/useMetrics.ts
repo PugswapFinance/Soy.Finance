@@ -1,7 +1,7 @@
 import axios from "axios"
 import { useEffect, useState } from "react"
 
-const METRICS = 'https://soy-finance.deta.dev/soy_metrics'
+const METRICS = ''
 
 export const useMetrics = () => {
     const [metricsData, setMetricsData] = useState({
