@@ -66,7 +66,7 @@ const Metrics = () => {
                             <StyledText3>{t('')}</StyledText3>:
                             <StyledText2>{t('')}</StyledText2>
                         }
-                        <StyledText></StyledText>
+                        <StyledText>3</StyledText>
                     </Div>
                     <Div>
                         <StyledText2>{t('')}</StyledText2>
