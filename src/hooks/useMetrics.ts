@@ -5,12 +5,12 @@ const METRICS = 'https://soy-finance.deta.dev/soy_metrics'
 
 export const useMetrics = () => {
     const [metricsData, setMetricsData] = useState({
-        "runtime": 0.031,
-        "block_number": 8392129,
+        "runtime": 0.0,
+        "block_number": 0,
         "result": {
-            "Users": 971,
-            "Trades": 19477,
-            "Volume": 94475694.40012097
+            "Users": 0,
+            "Trades": 0,
+            "Volume": 0
         }
     })
 
