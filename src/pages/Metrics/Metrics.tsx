@@ -44,7 +44,7 @@ const Metrics = () => {
             <Content>
                 <Flex data-aos="fade-right">
                     <Div className="margin">
-                        <StyledText2>{t('Total Volume')}</StyledText2>
+                        <StyledText2>{t('')}</StyledText2>
                         <Spacer height="20px" />
                         <StyledText>${shortenNumber(metricsData.result.Volume)}</StyledText>
                     </Div>
