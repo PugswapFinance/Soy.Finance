@@ -49,7 +49,7 @@ const PageFooter = () => {
                             <Spacer height="10px" />
                             <StyledLi href="/roadmap">{t('Roadmap')}</StyledLi>
                             <Spacer height="10px" />
-                            <StyledLi href="/safelist">{t('Safelisting')}</StyledLi>
+                            <StyledLi href="">{t('')}</StyledLi>
                             <Spacer height="10px" />
                             <StyledLi href="" target="_blank">{t('')}</StyledLi>
                         </Itemdiv>
@@ -113,7 +113,7 @@ const PageFooter = () => {
                         <Spacer height="10px" />
                         <StyledLi href="/roadmap">{t('Roadmap')}</StyledLi>
                         <Spacer height="10px" />
-                        <StyledLi href="/safelist">{t('Safelisting')}</StyledLi>
+                        <StyledLi href="">{t('')}</StyledLi>
                         <Spacer height="10px" />
                         <StyledLi href="" target="_blank">{t('')}</StyledLi>
                     </div>
