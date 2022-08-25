@@ -51,35 +51,35 @@ const SafelistContent = () => {
                     <Spacer height="40px" />
                     <Row2>
                         <Circle />
-                        <Text color='#767676'>{t('')}</Text>
+                        
                     </Row2>
                     <Spacer height="20px" />
                     <Row2>
                         <Circle />
-                        <Text color='#767676'>{t('')}</Text>
+                       
                     </Row2>
                     <Spacer height="20px" />
                     <Row2>
                         <Circle />
-                        <Text color='#767676'>{t('')}</Text>
+                        
                     </Row2>
                 </div>
                 <Div>
-                    <Text color={Theme.colors.primary}>{t('Send us the following information to')}<Text2 color={Theme.colors.bgscondary}><b>&nbsp;{t('Pen@puginu.Finance.')}</b></Text2></Text>
+                    <Text color={Theme.colors.primary}>{t('Send us the following information to')}<Text2 color={Theme.colors.bgscondary}><b>&nbsp;{t('Pen@Puginu.Finance.')}</b></Text2></Text>
                     <Spacer height="40px" />
                     <Row2>
                         <Circle />
-                        <Text color='#767676'>{t('')}</Text>
+                        
                     </Row2>
                     <Spacer height="20px" />
                     <Row2>
                         <Circle />
-                        <Text color='#767676'>{t('')}</Text>
+                        
                     </Row2>
                     <Spacer height="20px" />
                     <Row2>
                         <Circle />
-                        <Text color='#767676'>{t('')}</Text>
+                        
                     </Row2>
                 </Div>
             </BottomDiv>
