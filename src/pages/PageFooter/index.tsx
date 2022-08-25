@@ -43,13 +43,13 @@ const PageFooter = () => {
                             </RightsdivWeb>
                         </Itemdiv>
                         <Itemdiv>                            
-                            <Text><b>{t('Soy Finance')}</b></Text>
+                            <Text><b>{t('Pug Inu Finance')}</b></Text>
                             <Spacer height="10px" />
                             <StyledLi href="" target="_blank">{t('')}</StyledLi>
                             <Spacer height="10px" />
                             <StyledLi href="/roadmap">{t('Roadmap')}</StyledLi>
                             <Spacer height="10px" />
-                            <StyledLi href="/safelist">{t('Safelisting')}</StyledLi>
+                            <StyledLi href="">{t('')}</StyledLi>
                             <Spacer height="10px" />
                             <StyledLi href="" target="_blank">{t('')}</StyledLi>
                         </Itemdiv>
@@ -113,7 +113,7 @@ const PageFooter = () => {
                         <Spacer height="10px" />
                         <StyledLi href="/roadmap">{t('Roadmap')}</StyledLi>
                         <Spacer height="10px" />
-                        <StyledLi href="/safelist">{t('Safelisting')}</StyledLi>
+                        <StyledLi href="">{t('')}</StyledLi>
                         <Spacer height="10px" />
                         <StyledLi href="" target="_blank">{t('')}</StyledLi>
                     </div>
@@ -131,7 +131,7 @@ const PageFooter = () => {
                     <div>
                         <Text><b>{t('Documentation')}</b></Text>
                         <Spacer height="10px" />
-                        <StyledLi href="https://github.com/ContractChecker/" target="_blank">{t('Platform Audit Report')}</StyledLi>
+                        <StyledLi href="https://github.com/ContractChecker/" target="_blank">{t('Contract Audit Report')}</StyledLi>
                         <Spacer height="10px" />
                         <StyledLi href="https://" target="_blank">{t('Bug Bounty Report (To come)')}</StyledLi>
                         <Spacer height="10px" />
