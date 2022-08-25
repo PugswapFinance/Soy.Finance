@@ -51,7 +51,7 @@ const SafelistContent = () => {
                     <Spacer height="40px" />
                     <Row2>
                         <Circle />
-                        <Text color='#767676'>{t(')}</Text>
+                        <Text color='#767676'>{t('')}</Text>
                     </Row2>
                     <Spacer height="20px" />
                     <Row2>
